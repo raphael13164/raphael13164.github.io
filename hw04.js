@@ -1,6 +1,6 @@
 // 08_Transformation.js (태양계 애니메이션 수정본)
-import { resizeAspectRatio, Axes} from 'util/util.js';
-import { Shader, readShaderFile } from 'util/shader.js';
+import { resizeAspectRatio, Axes} from 'util.js';
+import { Shader, readShaderFile } from 'shader.js';
 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
