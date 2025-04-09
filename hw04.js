@@ -121,8 +121,8 @@ function render() {
 }
 
 async function initShader() {
-    const vert = await readShaderFile('shVert.glsl');
-    const frag = await readShaderFile('shFrag.glsl');
+    const vert = await readShaderFile('./shVert.glsl');
+    const frag = await readShaderFile('./shFrag.glsl');
     shader = new Shader(gl, vert, frag);
 }
 
