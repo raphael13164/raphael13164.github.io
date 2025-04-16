@@ -1,6 +1,6 @@
 import { resizeAspectRatio, setupText, updateText, Axes } from './util.js';
 import { Shader, readShaderFile } from './shader.js';
-import { SquarePyramid } from './squarePyramid.js'; // 꼭 Homework05 폴더 안에 있어야 함
+import { SquarePyramid } from './squarePyramid.js'; 
 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
